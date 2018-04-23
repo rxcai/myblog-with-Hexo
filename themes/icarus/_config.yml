@@ -17,19 +17,20 @@ customize:
         enabled: true # Whether to show profile bar
         avatar: css/images/avatar.png
         gravatar: # Gravatar email address, if you enable Gravatar, your avatar config will be overriden
-        author: PPOffice
-        author_title: Web Developer & Designer
-        location: Harbin, China
+        author: RxCai
+        author_title: 亦余心之所向兮，虽九死其尤未悔
+        location: Paris, France
         follow: https://github.com/rxcai
     highlight: monokai
     sidebar: right # sidebar position, options: left, right or leave it empty
     thumbnail: true # enable posts thumbnail, options: true, false
-    favicon: # path to favicon
+    favicon: css/images/logo.png
     social_links:
         github: http://github.com/rxcai
-        twitter: /
-        facebook: /
-        dribbble: /
+        twitter: https://twitter.com/rxcai
+        facebook: https://www.facebook.com/rxcai
+        # linkedin: /
+        # weibo: /
         rss: /
     social_link_tooltip: true # enable the social link tooltip, options: true, false
 
@@ -40,7 +41,7 @@ widgets:
     - archive
     - tag
     - tagcloud
-    - links
+    # - links
 
 # Search
 search:
